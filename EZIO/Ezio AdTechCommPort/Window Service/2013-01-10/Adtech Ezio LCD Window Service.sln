@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adtech Ezio LCD Window Service", "Adtech Ezio LCD Window Service\Adtech Ezio LCD Window Service.csproj", "{DA5A1334-FBD1-44DB-95F3-98F6914F787C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5A1334-FBD1-44DB-95F3-98F6914F787C}.Debug|x86.ActiveCfg = Release|x86
+		{DA5A1334-FBD1-44DB-95F3-98F6914F787C}.Debug|x86.Build.0 = Release|x86
+		{DA5A1334-FBD1-44DB-95F3-98F6914F787C}.Release|x86.ActiveCfg = Release|x86
+		{DA5A1334-FBD1-44DB-95F3-98F6914F787C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2010\Projects\AdTechCommPort\AdTechCommPort\bin\Debug\AdTechCommPort.exe
+c:\users\administrator\documents\visual studio 2010\Projects\AdTechCommPort\AdTechCommPort\bin\Debug\AdTechCommPort.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\AdTechCommPort\AdTechCommPort\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\AdTechCommPort\AdTechCommPort\obj\x86\Debug\AdTechCommPort.exe
+c:\users\administrator\documents\visual studio 2010\Projects\AdTechCommPort\AdTechCommPort\obj\x86\Debug\AdTechCommPort.pdb

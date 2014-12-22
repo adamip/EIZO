@@ -1,0 +1,39 @@
+----------------------------------------------------------------------------
+        Caswell EZIO utility README File
+        Copyright(c) 2009 Caswell, Inc.
+----------------------------------------------------------------------------
+
+  ezio_300_api package is a sample control 2*16 EZIO utility. 
+About the detail usage, please refer to the ezio_300_api help menu
+or refer doc/Caswell_EZIO_300_UserManual.doc detailed description.
+
+  ezio_g500_api package is a sample control 128*64 graphic LCD device utility. 
+About the detail usage, please refer to the ezio_g500_api help menu 
+or refer doc/Caswell_EZIO_G400_G500_UserManual.doc detailed description.
+
+  The ezio_300_api can create a customized pattern by the command -p.
+The usage is setted as following: ezio_300_api -d [device] -p [Information].
+The [Information] includes the save address, and the pattern data of the eight rows.
+For example, the pattern is created as below.
+
+Address: 03
+Customized pattern:
+				43210
+			0 	XXXXX 	---1F
+			1 	XXXX.	---1E
+			2 	XXX.. 	---1C
+			3 	XX... 	---18
+			4 	X.... 	---10
+			5 	....X 	---01
+			6 	...XX 	---03
+			7 	..XXX 	---07
+
+  The 'X' means bright points and the '.' means blank ones.
+There are eight address (00 to 07) can be used to save customized patterns.
+The row 0 is 'XXXXX' which means '11111' in binary and '1F' in hexadecimal format.
+This example can be created by the following command:
+
+		ezio_300_api -d [device] -p "031F1E1C1810010307"
+
+Finally, this pattern is created in address 03.
+
